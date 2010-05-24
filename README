@@ -1,0 +1,8 @@
+== About InstaDelish
+
+Instapaper is a fun tool to queue blog posts and other articles for later reading.  Everyone loves Delicious to store their bookmarks.  Unfortunately, once you read an article in Instapaper, there's no easy way to bookmark it in Delicious.
+
+That's where InstaDelish comes in.  Star an article in Instapaper.  Then run this tool, built in Rails.  Enter your Delicious username / password + the RSS feed for your Instapaper starred folder (or any other folder on Instapaper for that matter) and your links will be saved as Delicious bookmarks.  Can't remember if you've already saved that link?  No worries -  InstaDelish will check to make sure that you haven't already bookmarked the same link before.
+
+Please feel free to make suggestions as to how this tool could be further improved.  Email robert (at) shedd (dot) us
+

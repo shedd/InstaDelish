@@ -1,0 +1,17 @@
+<%
+if params[:flagged_feed].nil?
+	%>
+	<p>This simple application takes the RSS feed for your Instapaper Starred articles and saves the articles that you've starred to Delicious.  Don't worry - if you already have the link saved in your Delicious account, this tool won't save it again.'</p>
+	<% form_tag '/flagged' do -%>
+		<div>Delicious Username: <%= text_field_tag 'username' %></div>
+		<div>Delicious Password: <%= password_field_tag 'password' %></div>
+		<div>Instapaper Flagged RSS Feed: <%= text_field_tag 'flagged_feed' %></div>
+	    <div><%= submit_tag 'Post Starred Articles to Delicious' %></div>
+	<% end -%>
+<%
+else
+%>
+	<%= @items %> new items added to Delicious!
+<%
+end
+%>

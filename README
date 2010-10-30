@@ -6,3 +6,16 @@ That's where InstaDelish comes in.  Star an article in Instapaper.  Then run thi
 
 Please feel free to make suggestions as to how this tool could be further improved.  Email robert (at) shedd (dot) us
 
+
+== Dependencies
+
+Make sure you install the WWW-Delicious gem:
+
+sudo gem install www-delicious
+
+
+== Running InstaDelish
+
+Install Ruby and Rails on your machine.  Then, just go to http://localhost:3000/flagged (or whatever your Ruby on Rails hostname is + /flagged) in your browser and follow the screens.
+
+
